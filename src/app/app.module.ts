@@ -19,7 +19,7 @@ const appRoutes: Routes = [{
   component: ProductPageComponent
 }, {
   path: '',
-  redirectTo: '/products',
+  redirectTo: 'products',
   pathMatch: 'full'
 }];
 
